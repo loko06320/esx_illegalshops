@@ -16,7 +16,7 @@ AddEventHandler('esx:playerLoaded', function(xPlayer)
 end)
 
 
-local WeedPNJ = {
+local PNJ = {
 	{id=1, Name=PnjWeed, VoiceName="GENERIC_INSULT_HIGH", Ambiance="AMMUCITY", Weapon=1649403952, modelHash="g_m_m_chicold_01", x = 182.35203552246, y = -938.38549804688, z = 29.091911315918, heading=53.4745941},
 }
 
