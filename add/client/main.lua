@@ -23,9 +23,9 @@ local PNJ = {
 Citizen.CreateThread(function()
 	Citizen.Wait(1)
 	if (not generalLoaded) then
-		for i=1, #WeedPNJ do
-			RequestModel(GetHashKey(WeedPNJ[i].modelHash))
-			while not HasModelLoaded(GetHashKey(WeedPNJ[i].modelHash)) do
+		for i=1, #PNJ do
+			RequestModel(GetHashKey(PNJ[i].modelHash))
+			while not HasModelLoaded(GetHashKey(PNJ[i].modelHash)) do
 			Citizen.Wait(1)
 			end
 
@@ -34,8 +34,8 @@ Citizen.CreateThread(function()
 				Citizen.Wait(1)
 			end
 
-      WeedPNJ[i].id = CreatePed(28, WeedPNJ[i].modelHash, WeedPNJ[i].x, WeedPNJ[i].y, WeedPNJ[i].z, WeedPNJ[i].heading, false, false)
-      TaskStartScenarioInPlace(WeedPNJ[i].id,'WORLD_HUMAN_DRUG_DEALER', 0 , false )
+      PNJ[i].id = CreatePed(28, PNJ[i].modelHash, PNJ[i].x, PNJ[i].y, PNJ[i].z, PNJ[i].heading, false, false)
+      TaskStartScenarioInPlace(PNJ[i].id,'WORLD_HUMAN_DRUG_DEALER', 0 , false )
     end
 	end
   generalLoaded = true
