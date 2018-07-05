@@ -1,11 +1,11 @@
 Locales['fr'] = {
-	['shop'] = 'magasin',
-	['shops'] = 'magasins',
+	['shop'] = 'revendeur illégal',
+	['shops'] = 'revendeurs illégaux',
 	['press_menu'] = 'appuyez sur ~INPUT_CONTEXT~ pour accéder au magasin.',
-	['bought'] = 'you just bought ~y~%sx~s~ ~b~%s~s~ for ~r~$%s~s~',
+	['bought'] = 'vous avez acheté ~y~%sx~s~ ~b~%s~s~ pour ~r~€%s~s~',
 	['not_enough'] = 'vous n\'avez ~r~pas assez~s~ d\'argent: %s',
-	['player_cannot_hold'] = 'you do ~r~not~s~ have enough ~y~free space~s~ in your inventory!',
-	['shop_confirm'] = 'buy %sx %s for $%s?',
-	['no'] = 'no',
-	['yes'] = 'yes',
+	['player_cannot_hold'] = 'vous n\'avez ~r~pas~s~ assez de ~y~place libre~s~ dans votre inventaire!',
+	['shop_confirm'] = 'acheter %sx %s pour €%s?',
+	['no'] = 'non',
+	['yes'] = 'oui',
 }
