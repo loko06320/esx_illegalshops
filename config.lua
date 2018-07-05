@@ -3,11 +3,11 @@ Config.DrawDistance = 100
 Config.Size         = {x = 1.5, y = 1.5, z = 1.5}
 Config.Color        = {r = 0, g = 128, b = 255}
 Config.Type         = 1
-Config.Locale       = 'en'
+Config.Locale       = 'fr'
 
 Config.Zones = {
 
-	TwentyFourSeven = {
+	ballas = {
 		Items = {},
 		Pos = {
 			{x = 373.875,   y = 325.896,  z = 102.566},
@@ -21,7 +21,7 @@ Config.Zones = {
 		}
 	},
 
-	RobsLiquor = {
+	Vagos = {
 		Items = {},
 		Pos = {
 			{x = 1135.808,  y = -982.281,  z = 45.415},
@@ -36,7 +36,7 @@ Config.Zones = {
 		}
 	},
 
-	LTDgasoline = {
+	Triades = {
 		Items = {},
 		Pos = {
 			{x = -48.519,   y = -1757.514, z = 28.421},
