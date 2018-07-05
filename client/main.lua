@@ -90,7 +90,7 @@ end)
 
 --SPAWN PNJ
 local PNJ = {
-	{id=1, Name=PnjWeed, VoiceName="GENERIC_INSULT_HIGH", Ambiance="AMMUCITY", Weapon=1649403952, modelHash="g_m_m_chicold_01", x = 182.35203552246, y = -938.38549804688, z = 29.091911315918, heading=53.4745941},
+	{id=1, Name=PnjWeed, VoiceName="GENERIC_INSULT_HIGH", Ambiance="AMMUCITY", Weapon=1649403952, modelHash="g_m_m_chicold_01", x = -1061.6938476563, y = -1663.5811767578, z = 3.5811767578, heading=40.947692},
 }
 
 Citizen.CreateThread(function()
@@ -114,7 +114,7 @@ Citizen.CreateThread(function()
   generalLoaded = true
 end)
 
--- Create Blips
+--[[ Create Blips
 Citizen.CreateThread(function()
 	for k,v in pairs(Config.Zones) do
   	for i = 1, #v.Pos, 1 do
@@ -144,7 +144,7 @@ Citizen.CreateThread(function()
       end
     end
   end
-end)
+end) --]]
 
 -- Enter / Exit marker events
 Citizen.CreateThread(function()
