@@ -10,5 +10,5 @@ CREATE TABLE `illegalshops` (
 );
 
 INSERT INTO `illegalshops` (store, item, price) VALUES
-	('ballas','handcuff',30)
+	('ballas','handcuff',3000)
 ;
