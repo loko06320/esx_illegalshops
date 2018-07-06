@@ -22,7 +22,7 @@ end)
 
 function LoadShop()
 	local itemResult = MySQL.Sync.fetchAll('SELECT * FROM items')
-	local shopResult = MySQL.Sync.fetchAll('SELECT * FROM shops')
+	local shopResult = MySQL.Sync.fetchAll('SELECT * FROM illegalshops')
 
 	local itemInformation = {}
 	for i=1, #itemResult, 1 do
